@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const URL = "https://web-production-9026.up.railway.app" || "http://localhost:8000";
+const URL = "https://web-production-9026.up.railway.app";
 
 export const createPost = async (post)=>{
     try{
