@@ -16,7 +16,7 @@ export const uploadImage = (request , response)=>{
     if(!request.file)
         return response.status(404).json("file not found");
 
-    const imageURL = `${url}/file/${request.file.filename}`
+    const imageURL = `https://web-production-9026.up.railway.app/file/${request.file.filename}`
 
     response.status(200).json(imageURL);
     }catch(error){
