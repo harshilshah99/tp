@@ -1,6 +1,6 @@
 import grid from 'gridfs-stream';
 import mongoose from 'mongoose';
-const url = 'https://web-production-9026.up.railway.app'|| 'http://localhost:8000';
+const url = 'https://web-production-9026.up.railway.app';
 
 
 let gfs;
